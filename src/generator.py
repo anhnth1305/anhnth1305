@@ -1,5 +1,6 @@
 """Markdown profile generator combining structured models and the friend's clean header aesthetic."""
 
+from urllib.parse import quote
 from src.models import ProfileConfig
 
 
@@ -51,9 +52,9 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 </p>
 """
 
-    banner_text_enc = cfg.banner_motto.replace(" ", "%20")
-    banner_desc_enc = cfg.banner_sub.replace(" ", "%20").replace("|", "%7C")
-    typing_lines_enc = ";".join(line.replace(" ", "+") for line in cfg.typing_lines)
+    banner_text_enc = quote(cfg.banner_motto)
+    banner_desc_enc = quote(cfg.banner_sub)
+    typing_lines_enc = ";".join(quote(line) for line in cfg.typing_lines)
 
     markdown = f"""<!--
   Automated profile README generated via Python.

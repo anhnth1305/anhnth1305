@@ -9,7 +9,7 @@
   <p><b>Backend Software Engineer | Distributed Systems</b></p>
   
   <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3500&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Focused+on+architecting+resilient,+high-throughput+systems.;Engineering+high-concurrency+backends+with+C#+&+.NET+8." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3500&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Focused%20on%20architecting%20resilient%2C%20high-throughput%20systems.;Engineering%20high-concurrency%20backends%20with%20C%23%20%26%20.NET%208." alt="Typing SVG" />
   </p>
 
   <p>
