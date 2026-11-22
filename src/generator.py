@@ -63,8 +63,8 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color={cfg.banner_color}&height=220&section=header&text={banner_text_enc}&fontSize=44&fontAlignY=38&desc={banner_desc_enc}&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
 
-  <h1>{cfg.name}</h1>
-  <p><b>{cfg.headline}</b></p>
+  <h1 align="center">{cfg.name}</h1>
+  <p align="center"><b>{cfg.headline}</b></p>
   
   <p align="center">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=1000&color={cfg.typing_color}&center=true&vCenter=true&width=700&height=45&lines={typing_lines_enc}" alt="Typing SVG" />
