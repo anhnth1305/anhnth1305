@@ -1,11 +1,11 @@
-"""Tests for badge rendering and markdown generator."""
+"""Unit tests for the profile generator package."""
 
 import unittest
 from pathlib import Path
 import tempfile
 
 from src.models import ProfileConfig, TechItem, SocialLink
-from src.badges import shield_badge, social_badge, skillicons_url
+from src.badges import shield_badge, social_badge
 from src.generator import generate_profile_markdown
 
 
@@ -32,22 +32,18 @@ class TestProfileGenerator(unittest.TestCase):
         self.assertIn('href="https://linkedin.com/in/test"', badge)
         self.assertIn('img.shields.io/badge/LinkedIn-0077B5', badge)
 
-    def test_skillicons_url(self):
-        url = skillicons_url(["python", "docker"], per_line=10)
-        self.assertEqual(url, "https://skillicons.dev/icons?i=python,docker&perline=10&theme=dark")
-
     def test_markdown_generation_sections(self):
         md = generate_profile_markdown(self.config)
         self.assertIn("Nguyen Thi Hong Anh", md)
-        self.assertIn("Quick Overview", md)
-        self.assertIn("Tech Stack & Tooling", md)
-        self.assertIn("Featured Engineering Projects", md)
+        self.assertIn("FPT University Ho Chi Minh City (FPTU HCM)", md)
+        self.assertIn("Third-year", md)
+        self.assertIn("About Me", md)
+        self.assertIn("Technical Stack", md)
+        self.assertIn("VeggieLife", md)
+        self.assertNotIn("Async Distributed Task Engine", md)
+        self.assertNotIn("GitHub Profile Dynamic Generator", md)
         self.assertIn("GitHub Activity & Insights", md)
-        self.assertIn("Connect With Me", md)
-        self.assertIn("skillicons.dev/icons", md)
-        self.assertIn("Python", md)
-        self.assertIn("FastAPI", md)
-        self.assertIn("sweeti3-pie", md)
+        self.assertIn("Get In Touch", md)
 
     def test_file_output(self):
         with tempfile.TemporaryDirectory() as tmpdir:
