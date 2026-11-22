@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sweeti3-pie-profile"
+version = "1.0.0"
+description = "Dynamic GitHub profile README generator and showcase project for sweeti3-pie"
+authors = [
+    { name = "Nguyen Thi Hong Anh", email = "anh.nth1305@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["github-profile", "python", "automation", "portfolio"]
+
+[project.scripts]
+generate-profile = "src.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

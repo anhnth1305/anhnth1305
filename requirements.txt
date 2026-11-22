@@ -1,0 +1,2 @@
+# Core project dependencies (pure standard library compatible, optional dev dependencies)
+pytest>=8.0.0

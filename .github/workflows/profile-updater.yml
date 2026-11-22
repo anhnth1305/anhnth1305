@@ -1,0 +1,48 @@
+name: Update GitHub Profile README
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - "main.py"
+  schedule:
+    # Run once every Monday at 00:00 UTC
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Unit Tests
+        run: |
+          python -m unittest discover -s tests
+
+      - name: Rebuild Profile README
+        run: |
+          python main.py --output README.md
+
+      - name: Commit and push changes if updated
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore(profile): auto-regenerate GitHub profile README [skip ci]"
+            git push
+          else
+            echo "No changes detected."
+          fi
