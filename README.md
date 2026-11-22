@@ -5,7 +5,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=180&section=header&text=Nguyen%20Thi%20Hong%20Anh&fontSize=42&fontAlignY=38&desc=Third-Year%20Software%20Engineering%20Student%20@%20FPTU%20HCM&descFontSize=18&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
 
-  <h1>Hi there, I'm Nguyen Thi Hong Anh 👋</h1>
+  <h1>Hi there, I'm Nguyen Thi Hong Anh</h1>
   <p><b>Third-Year Software Engineering Student at FPTU HCM | Backend Engineer</b></p>
 </div>
 
@@ -21,60 +21,66 @@
 
 ---
 
-### 📌 About Me
+### About Me
 
-- 🎓 **Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.
-- 🔭 **Focus:** Backend Engineering, Clean Architecture, distributed caching, and resilient API design.
-- ⚡ **Core Expertise:** Sub-50ms instant security revocation (Redis Blacklist), atomic Redis Lua scripting, and background workers.
-- 🌐 **Languages:** Vietnamese (Native) • English (Professional Working Proficiency) • Japanese (Elementary) • French (Basic).
-- 📍 **Location:** Ho Chi Minh City, Vietnam
+- **Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.
+- **Focus:** Backend Engineering, Clean Architecture, distributed caching, and resilient API design.
+- **Core Expertise:** Sub-50ms instant security revocation (Redis Blacklist), atomic Redis Lua scripting, and background workers.
+- **Languages:** Vietnamese (Native) • English (Professional Working Proficiency) • Japanese (Elementary) • French (Basic).
+- **Location:** Ho Chi Minh City, Vietnam
 
 <details>
-<summary><b>🎖️ Honors & Professional Certifications</b></summary>
+<summary><b>Honors & Professional Certifications</b></summary>
 
-- 🏆 **Honorable Student Award (Semester 3, Semester 4) – FPT University**
-- 🏆 **Coursera: Data Structures & Algorithms Specialization (UC San Diego)**
-- 🏆 **Coursera: Software Engineering Specialization (HKUST)**
-- 🏆 **Coursera: Object-Oriented Programming in Java (Duke University)**
-- 🏆 **IBM & Anthropic: Generative AI Fundamentals & Claude 101**
+- **Honorable Student Award (Semester 3, Semester 4) – FPT University**
+- **Coursera: Data Structures & Algorithms Specialization (UC San Diego)**
+- **Coursera: Software Engineering Specialization (HKUST)**
+- **Coursera: Object-Oriented Programming in Java (Duke University)**
+- **IBM & Anthropic: Generative AI Fundamentals & Claude 101**
 
 </details>
 
 ---
 
-### 📚 Tech Stack
+### Tech Stack
 
-The core tools I use to architect resilient, high-concurrency backends.
+The tools I use most while building toward stronger backend depth, cleaner frontend work, and safer delivery.
 
 #### Languages
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,java" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=js,ts,java,py,cs,c" alt="Languages" />
+</p>
+
+#### Frontend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,html,css,bootstrap,tailwind,vite" alt="Frontend" />
 </p>
 
 #### Backend & Frameworks
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=dotnet" alt="Backend & Frameworks" />
+  <img src="https://skillicons.dev/icons?i=spring,dotnet" alt="Backend & Frameworks" />
 </p>
 
-#### Databases & Caching
+#### Database - Vector Database
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=redis,postgres" alt="Databases & Caching" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis" alt="Database - Vector Database" />
 </p>
 
 #### DevOps & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,postman,figma" alt="DevOps & Tools" />
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vscode,figma" alt="DevOps & Tools" />
 </p>
 
 ---
 
-### 🚀 Featured Engineering Project
+### Featured Engineering Project
 
-### 🌟 [VeggieLife – Plant-Based Nutrition & Community Platform](https://github.com/fpt-semester5-organization/Backend)
+### [VeggieLife – Plant-Based Nutrition & Community Platform](https://github.com/fpt-semester5-organization/Backend)
 > **Role:** Backend Architect & Core Engineer  
 > **Tech Stack:** `C#` `.NET 8` `EF Core 8` `SQL Server 2022` `Redis 7` `SignalR` `PayOS` `Docker` `xUnit`
 
@@ -86,24 +92,36 @@ The core tools I use to architect resilient, high-concurrency backends.
 
 ---
 
-### 📊 GitHub Activity & Insights
+### GitHub Activity & Insights
 
 <div align="center">
   <a href="https://github.com/sweeti3-pie">
-    <img src="https://github-readme-stats.vercel.app/api?username=sweeti3-pie&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="160" />
+    <img src="https://github-readme-stats.vercel.app/api?username=sweeti3-pie&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
   </a>
   <a href="https://github.com/sweeti3-pie">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sweeti3-pie&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="160" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sweeti3-pie&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165" />
   </a>
 </div>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sweeti3-pie&theme=radical&hide_border=true" alt="Streak Stats" />
+</p>
+
 ---
 
-### 📬 Connect With Me
+### Get In Touch
 
-- 📧 **Email:** [anh.nth1305@gmail.com](mailto:anh.nth1305@gmail.com)
-- 💼 **LinkedIn:** [Nguyen Thi Hong Anh](https://linkedin.com/in/hong-anh-23a103448)
-- 🐙 **GitHub:** [@sweeti3-pie](https://github.com/sweeti3-pie)
+<p align="left">
+  <a href="mailto:anh.nth1305@gmail.com">
+    <img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://linkedin.com/in/hong-anh-23a103448">
+    <img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/sweeti3-pie">
+    <img src="https://img.shields.io/badge/GitHub-@sweeti3--pie-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
 
 ---
 

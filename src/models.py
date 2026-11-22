@@ -47,10 +47,10 @@ class ProfileConfig:
     degree: str = "Third-year Software Engineering Student (GPA: 3.18/4.0)"
     
     bio_bullets: List[str] = field(default_factory=lambda: [
-        "🎓 **Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.",
-        "🔭 **Focus:** Backend Engineering, Clean Architecture, distributed caching, and resilient API design.",
-        "⚡ **Core Expertise:** Sub-50ms instant security revocation (Redis Blacklist), atomic Redis Lua scripting, and background workers.",
-        "🌐 **Languages:** Vietnamese (Native) • English (Professional Working Proficiency) • Japanese (Elementary) • French (Basic).",
+        "**Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.",
+        "**Focus:** Backend Engineering, Clean Architecture, distributed caching, and resilient API design.",
+        "**Core Expertise:** Sub-50ms instant security revocation (Redis Blacklist), atomic Redis Lua scripting, and background workers.",
+        "**Languages:** Vietnamese (Native) • English (Professional Working Proficiency) • Japanese (Elementary) • French (Basic).",
     ])
 
     honors: List[str] = field(default_factory=lambda: [
@@ -85,24 +85,28 @@ class ProfileConfig:
         ),
     ])
 
-    # Tech Stack: Focused, curated essentials (no clutter or redundant icons)
-    tech_intro: str = "The core tools I use to architect resilient, high-concurrency backends."
+    # Reverted back to the full reference tech stack without emoji clutter
+    tech_intro: str = "The tools I use most while building toward stronger backend depth, cleaner frontend work, and safer delivery."
     tech_categories: List[TechCategory] = field(default_factory=lambda: [
         TechCategory(
             title="Languages",
-            icons=["cs", "java"],
+            icons=["js", "ts", "java", "py", "cs", "c"],
+        ),
+        TechCategory(
+            title="Frontend",
+            icons=["react", "html", "css", "bootstrap", "tailwind", "vite"],
         ),
         TechCategory(
             title="Backend & Frameworks",
-            icons=["dotnet"],
+            icons=["spring", "dotnet"],
         ),
         TechCategory(
-            title="Databases & Caching",
-            icons=["redis", "postgres"],
+            title="Database - Vector Database",
+            icons=["mysql", "postgres", "mongodb", "redis"],
         ),
         TechCategory(
             title="DevOps & Tools",
-            icons=["docker", "git", "postman", "figma"],
+            icons=["docker", "git", "github", "githubactions", "vscode", "figma"],
         ),
     ])
 
