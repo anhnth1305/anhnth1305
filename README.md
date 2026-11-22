@@ -130,3 +130,7 @@ The tools I use most while building toward stronger backend depth, cleaner front
 <p align="center">
   <i>"Clean code always looks like it was written by someone who cares. — Robert C. Martin"</i>
 </p>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
+</div>

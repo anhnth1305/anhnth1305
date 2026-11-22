@@ -119,5 +119,9 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 <p align="center">
   <i>"{cfg.quote}"</i>
 </p>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
+</div>
 """
     return markdown

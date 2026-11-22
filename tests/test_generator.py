@@ -41,6 +41,7 @@ class TestProfileGenerator(unittest.TestCase):
         self.assertIn("### Featured Engineering Project", md)
         self.assertIn("### GitHub Activity & Insights", md)
         self.assertIn("### Get In Touch", md)
+        self.assertIn("section=footer", md)
         self.assertIn("VeggieLife", md)
         self.assertNotIn("Async Distributed Task Engine", md)
 
