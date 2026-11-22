@@ -44,36 +44,30 @@
 
 ### 📚 Tech Stack
 
-The tools I use most while building toward stronger backend depth, cleaner frontend work, and safer delivery.
+The tools I use most while building toward stronger backend depth, resilient architectures, and safer delivery.
 
 #### Languages
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,java,py,cs,c" alt="Languages" />
-</p>
-
-#### Frontend
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,html,css,bootstrap,tailwind,vite" alt="Frontend" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,c,js,html,css" alt="Languages" />
 </p>
 
 #### Backend & Frameworks
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=spring,dotnet" alt="Backend & Frameworks" />
+  <img src="https://skillicons.dev/icons?i=dotnet" alt="Backend & Frameworks" />
 </p>
 
-#### Database - Vector Database
+#### Databases & Caching
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis" alt="Database - Vector Database" />
+  <img src="https://skillicons.dev/icons?i=redis,postgres,mysql" alt="Databases & Caching" />
 </p>
 
 #### DevOps & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vscode,figma" alt="DevOps & Tools" />
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,vscode" alt="DevOps & Tools" />
 </p>
 
 ---

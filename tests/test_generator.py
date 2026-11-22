@@ -32,11 +32,10 @@ class TestProfileGenerator(unittest.TestCase):
         self.assertIn("Third-Year", md)
         self.assertIn("Tech Stack", md)
         self.assertIn("Languages", md)
-        self.assertIn("Frontend", md)
         self.assertIn("Backend & Frameworks", md)
-        self.assertIn("Database - Vector Database", md)
+        self.assertIn("Databases & Caching", md)
         self.assertIn("DevOps & Tools", md)
-        self.assertIn("skillicons.dev/icons?i=js,ts,java,py,cs,c", md)
+        self.assertIn("skillicons.dev/icons?i=cs,dotnet,java,c,js,html,css", md)
         self.assertIn("VeggieLife", md)
         self.assertNotIn("Async Distributed Task Engine", md)
 
