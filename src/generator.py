@@ -70,13 +70,13 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=1000&color={cfg.typing_color}&center=true&vCenter=true&width=700&height=45&lines={typing_lines_enc}" alt="Typing SVG" />
   </p>
 
-  <p>
+  <p align="center">
     <a href="mailto:anh.nth1305@gmail.com"><img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-black?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
     <img src="https://img.shields.io/badge/Focus-ASP.NET_Core_Backend-475569?style=flat-square" alt="Focus" />
     <img src="https://img.shields.io/badge/Path-Fullstack_Developer-1E293B?style=flat-square" alt="Path" />
     <img src="https://img.shields.io/badge/Open_To-Internship-475569?style=flat-square" alt="Open To" />
   </p>
-  <p>
+  <p align="center">
     <img src="https://img.shields.io/badge/Honors-Two--time_Honorable_Student-1E293B?style=flat-square" alt="Honors" />
     <img src="https://img.shields.io/badge/Education-FPT_University_HCMC-475569?style=flat-square" alt="Education" />
     <a href="https://linkedin.com/in/hong-anh-23a103448" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -108,7 +108,7 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 
 ### Get In Touch
 
-<p align="left">
+<p align="center">
   <a href="mailto:anh.nth1305@gmail.com">
     <img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
