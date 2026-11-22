@@ -85,15 +85,17 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 
 <div align="center">
   <a href="https://github.com/{cfg.username}">
-    <img src="https://github-readme-stats.vercel.app/api?username={cfg.username}&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api?username={cfg.username}&show_icons=true&theme={cfg.stats_theme}&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
   </a>
   <a href="https://github.com/{cfg.username}">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={cfg.username}&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={cfg.username}&layout=compact&theme={cfg.stats_theme}&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
   </a>
 </div>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user={cfg.username}&theme=radical&hide_border=true" alt="Streak Stats" />
+  <a href="https://github.com/{cfg.username}">
+    <img src="https://streak-stats.demolab.com?user={cfg.username}&theme={cfg.stats_theme}&hide_border=true" alt="Streak Stats" />
+  </a>
 </p>
 
 ---

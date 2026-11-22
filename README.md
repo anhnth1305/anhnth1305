@@ -96,15 +96,17 @@ The tools I use most while building toward stronger backend depth, cleaner front
 
 <div align="center">
   <a href="https://github.com/sweeti3-pie">
-    <img src="https://github-readme-stats.vercel.app/api?username=sweeti3-pie&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api?username=sweeti3-pie&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
   </a>
   <a href="https://github.com/sweeti3-pie">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sweeti3-pie&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sweeti3-pie&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
   </a>
 </div>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sweeti3-pie&theme=radical&hide_border=true" alt="Streak Stats" />
+  <a href="https://github.com/sweeti3-pie">
+    <img src="https://streak-stats.demolab.com?user=sweeti3-pie&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+  </a>
 </p>
 
 ---
