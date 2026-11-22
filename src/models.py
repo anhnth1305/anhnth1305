@@ -46,17 +46,20 @@ class ProfileConfig:
     university: str = "FPT University Ho Chi Minh City (FPTU HCM)"
     degree: str = "Third-year Software Engineering Student (GPA: 3.18/4.0)"
     
-    # Friend-inspired header branding
+    # Header branding
     banner_motto: str = "Architect. Optimize. Scale."
-    banner_sub: str = "ASP.NET Core | Clean Architecture | Distributed Systems"
-    banner_color: str = "0:0b1d3a,100:1e40af"  # Deep navy to royal blue gradient
+    banner_sub: str = "ASP.NET Core | Clean Architecture | Fullstack Growth"
+    
+    # Modern Violet/Obsidian palette (alternative to harsh blue; matches .NET & C# branding)
+    # Deep midnight obsidian to royal violet: '0:0f0728,100:4c1d95'
+    banner_color: str = "0:0f0728,100:4c1d95"
 
-    # Animated typewriter headline (readme-typing-svg in Fira Code)
+    # Animated typewriter headline relevant to Fullstack Developer path
     typing_lines: List[str] = field(default_factory=lambda: [
-        "Focused on architecting resilient, high-throughput systems.",
-        "Engineering high-concurrency backends with C# & .NET 8.",
+        "Backend-focused developer with fullstack aspirations.",
+        "Building robust .NET systems with modern web fundamentals.",
     ])
-    typing_color: str = "38BDF8"  # Electric cyan-blue matching reference image
+    typing_color: str = "C084FC"  # Soft neon violet (Fira Code)
 
     bio_bullets: List[str] = field(default_factory=lambda: [
         "**Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0 • Two-time Honorable Student Award recipient)*.",
