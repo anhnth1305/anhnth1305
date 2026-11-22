@@ -46,25 +46,33 @@ The tools I use most while building toward stronger backend depth, resilient arc
 #### Languages
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,c,js,html,css" alt="Languages" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,java,c,js,html,css" alt="Languages" />
+  </a>
 </p>
 
 #### Backend & Frameworks
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=dotnet" alt="Backend & Frameworks" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=dotnet" alt="Backend & Frameworks" />
+  </a>
 </p>
 
 #### Databases & Caching
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=redis,postgres,mysql" alt="Databases & Caching" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=redis,postgres,mysql" alt="Databases & Caching" />
+  </a>
 </p>
 
 #### DevOps & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,vscode,figma" alt="DevOps & Tools" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,vscode,figma" alt="DevOps & Tools" />
+  </a>
 </p>
 
 ---

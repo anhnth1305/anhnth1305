@@ -7,14 +7,16 @@ from src.models import ProfileConfig
 def generate_profile_markdown(cfg: ProfileConfig) -> str:
     """Compile ProfileConfig into a clean, concise, visually appealing GitHub profile README."""
 
-    # Tech Stack: clean category titles with centered Skillicons row below
+    # Tech Stack: clean category titles with centered Skillicons row below linked to skillicons.dev
     tech_stack_sections = []
     for cat in cfg.tech_categories:
         icons_str = ",".join(cat.icons)
         tech_stack_sections.append(
             f"#### {cat.title}\n\n"
             f'<p align="center">\n'
-            f'  <img src="https://skillicons.dev/icons?i={icons_str}" alt="{cat.title}" />\n'
+            f'  <a href="https://skillicons.dev">\n'
+            f'    <img src="https://skillicons.dev/icons?i={icons_str}" alt="{cat.title}" />\n'
+            f'  </a>\n'
             f"</p>"
         )
     tech_stack_rendered = "\n\n".join(tech_stack_sections)
