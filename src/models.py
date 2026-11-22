@@ -1,4 +1,4 @@
-"""Data models and profile configuration matching the user's exact visual style."""
+"""Data models and profile configuration matching the friend's modern blue aesthetic."""
 
 from dataclasses import dataclass, field
 from typing import List, Dict
@@ -24,7 +24,7 @@ class TechItem:
 @dataclass
 class TechCategory:
     title: str
-    icons: List[str]  # skillicons IDs, e.g. ["js", "ts", "java", "py", "cs", "c"]
+    icons: List[str]  # skillicons IDs, e.g. ["cs", "dotnet", "java", "c", "js", "html", "css"]
 
 
 @dataclass
@@ -41,11 +41,17 @@ class ProjectItem:
 class ProfileConfig:
     name: str = "Nguyen Thi Hong Anh"
     username: str = "sweeti3-pie"
-    headline: str = "Third-Year Software Engineering Student at FPTU HCM | Backend Engineer"
+    headline: str = "Backend Software Engineer | Distributed Systems"
     location: str = "Ho Chi Minh City, Vietnam"
     university: str = "FPT University Ho Chi Minh City (FPTU HCM)"
     degree: str = "Third-year Software Engineering Student (GPA: 3.18/4.0)"
     
+    # Friend-inspired header branding
+    banner_motto: str = "Architect. Optimize. Scale."
+    banner_sub: str = "ASP.NET Core | Clean Architecture | Distributed Systems"
+    tagline: str = "Focused on architecting resilient, high-throughput systems."
+    banner_color: str = "0:0b1d3a,100:1e40af"  # Deep navy to royal blue gradient
+
     bio_bullets: List[str] = field(default_factory=lambda: [
         "**Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0 • Two-time Honorable Student Award recipient)*.",
         "**Focus:** Backend Engineering, Clean Architecture, distributed caching, and resilient API design.",
@@ -118,7 +124,7 @@ class ProfileConfig:
         ),
     ])
 
-    # Toggle optional visual widgets (set to False for a clean, distraction-free portfolio)
+    # Toggle optional visual widgets
     show_github_stats: bool = False
     stats_theme: str = "tokyonight"
 

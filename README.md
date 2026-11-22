@@ -3,21 +3,24 @@
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=180&section=header&text=Nguyen%20Thi%20Hong%20Anh&fontSize=42&fontAlignY=38&desc=Third-Year%20Software%20Engineering%20Student%20@%20FPTU%20HCM&descFontSize=18&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d3a,100:1e40af&height=220&section=header&text=Architect.%20Optimize.%20Scale.&fontSize=44&fontAlignY=38&desc=ASP.NET%20Core%20%7C%20Clean%20Architecture%20%7C%20Distributed%20Systems&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
 
-  <h1>Hi there, I'm Nguyen Thi Hong Anh</h1>
-  <p><b>Third-Year Software Engineering Student at FPTU HCM | Backend Engineer</b></p>
+  <h1>Nguyen Thi Hong Anh</h1>
+  <p><b>Backend Software Engineer | Distributed Systems</b></p>
+  <p><font color="#38bdf8" size="4"><b>Focused on architecting resilient, high-throughput systems.</b></font></p>
+
+  <p>
+    <a href="mailto:anh.nth1305@gmail.com"><img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-black?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+    <img src="https://img.shields.io/badge/Focus-ASP.NET_Core_Backend-2563EB?style=flat-square" alt="Focus" />
+    <img src="https://img.shields.io/badge/Path-Backend_Engineer-1E293B?style=flat-square" alt="Path" />
+    <img src="https://img.shields.io/badge/Open_To-Internship-2563EB?style=flat-square" alt="Open To" />
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/Honors-Two--time_Honorable_Student-1E293B?style=flat-square" alt="Honors" />
+    <img src="https://img.shields.io/badge/Education-FPT_University_HCMC-2563EB?style=flat-square" alt="Education" />
+    <a href="https://linkedin.com/in/hong-anh-23a103448" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  </p>
 </div>
-
-<p align="center">
-  <a href="https://linkedin.com/in/hong-anh-23a103448" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a> <a href="mailto:anh.nth1305@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-</a> <a href="https://github.com/sweeti3-pie" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-</p>
 
 ---
 
@@ -96,5 +99,5 @@ The tools I use most while building toward stronger backend depth, resilient arc
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d3a,100:1e40af&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
 </div>
