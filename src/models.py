@@ -85,28 +85,24 @@ class ProfileConfig:
         ),
     ])
 
-    # Reverted back to the full reference tech stack without emoji clutter
-    tech_intro: str = "The tools I use most while building toward stronger backend depth, cleaner frontend work, and safer delivery."
+    # Verified actual skills from CV & FPTU coursework
+    tech_intro: str = "The tools I use most while building toward stronger backend depth, resilient architectures, and safer delivery."
     tech_categories: List[TechCategory] = field(default_factory=lambda: [
         TechCategory(
             title="Languages",
-            icons=["js", "ts", "java", "py", "cs", "c"],
-        ),
-        TechCategory(
-            title="Frontend",
-            icons=["react", "html", "css", "bootstrap", "tailwind", "vite"],
+            icons=["cs", "dotnet", "java", "c", "js", "html", "css"],
         ),
         TechCategory(
             title="Backend & Frameworks",
-            icons=["spring", "dotnet"],
+            icons=["dotnet"],
         ),
         TechCategory(
-            title="Database - Vector Database",
-            icons=["mysql", "postgres", "mongodb", "redis"],
+            title="Databases & Caching",
+            icons=["redis", "postgres", "mysql"],
         ),
         TechCategory(
             title="DevOps & Tools",
-            icons=["docker", "git", "github", "githubactions", "vscode", "figma"],
+            icons=["docker", "git", "github", "githubactions", "postman", "vscode", "figma"],
         ),
     ])
 
