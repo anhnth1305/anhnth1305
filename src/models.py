@@ -49,8 +49,14 @@ class ProfileConfig:
     # Friend-inspired header branding
     banner_motto: str = "Architect. Optimize. Scale."
     banner_sub: str = "ASP.NET Core | Clean Architecture | Distributed Systems"
-    tagline: str = "Focused on architecting resilient, high-throughput systems."
     banner_color: str = "0:0b1d3a,100:1e40af"  # Deep navy to royal blue gradient
+
+    # Animated typewriter headline (readme-typing-svg in Fira Code)
+    typing_lines: List[str] = field(default_factory=lambda: [
+        "Focused on architecting resilient, high-throughput systems.",
+        "Engineering high-concurrency backends with C# & .NET 8.",
+    ])
+    typing_color: str = "38BDF8"  # Electric cyan-blue matching reference image
 
     bio_bullets: List[str] = field(default_factory=lambda: [
         "**Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0 • Two-time Honorable Student Award recipient)*.",

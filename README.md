@@ -7,7 +7,10 @@
 
   <h1>Nguyen Thi Hong Anh</h1>
   <p><b>Backend Software Engineer | Distributed Systems</b></p>
-  <p><font color="#38bdf8" size="4"><b>Focused on architecting resilient, high-throughput systems.</b></font></p>
+  
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3500&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Focused+on+architecting+resilient,+high-throughput+systems.;Engineering+high-concurrency+backends+with+C#+&+.NET+8." alt="Typing SVG" />
+  </p>
 
   <p>
     <a href="mailto:anh.nth1305@gmail.com"><img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-black?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>

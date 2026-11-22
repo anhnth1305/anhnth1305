@@ -53,6 +53,7 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 
     banner_text_enc = cfg.banner_motto.replace(" ", "%20")
     banner_desc_enc = cfg.banner_sub.replace(" ", "%20").replace("|", "%7C")
+    typing_lines_enc = ";".join(line.replace(" ", "+") for line in cfg.typing_lines)
 
     markdown = f"""<!--
   Automated profile README generated via Python.
@@ -63,7 +64,10 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 
   <h1>{cfg.name}</h1>
   <p><b>{cfg.headline}</b></p>
-  <p><font color="#38bdf8" size="4"><b>{cfg.tagline}</b></font></p>
+  
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3500&pause=1000&color={cfg.typing_color}&center=true&vCenter=true&width=650&lines={typing_lines_enc}" alt="Typing SVG" />
+  </p>
 
   <p>
     <a href="mailto:anh.nth1305@gmail.com"><img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-black?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
