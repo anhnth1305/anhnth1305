@@ -118,7 +118,7 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
     <img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/{cfg.username}">
-    <img src="https://img.shields.io/badge/GitHub-@sweeti3--pie-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-@{cfg.username}-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 

@@ -3,7 +3,7 @@
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:334155&height=220&section=header&text=Architect.%20Optimize.%20Scale.&fontSize=44&fontAlignY=38&desc=ASP.NET%20Core%20%7C%20Clean%20Architecture%20%7C%20Fullstack%20Growth&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:475569,100:94a3b8&height=220&section=header&text=Architect.%20Optimize.%20Scale.&fontSize=44&fontAlignY=38&desc=ASP.NET%20Core%20%7C%20Clean%20Architecture%20%7C%20Fullstack%20Growth&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
 
   <center>
     <h1 align="center" style="text-align: center; border-bottom: none;">Nguyen Thi Hong Anh</h1>
@@ -92,8 +92,8 @@ The tools I use most while building toward stronger backend depth, resilient arc
   <a href="https://linkedin.com/in/hong-anh-23a103448">
     <img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/sweeti3-pie">
-    <img src="https://img.shields.io/badge/GitHub-@sweeti3--pie-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://github.com/anhnth1305">
+    <img src="https://img.shields.io/badge/GitHub-@anhnth1305-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
@@ -104,5 +104,5 @@ The tools I use most while building toward stronger backend depth, resilient arc
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:334155&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:475569,100:94a3b8&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
 </div>

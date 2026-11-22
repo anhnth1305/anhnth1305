@@ -40,7 +40,7 @@ class ProjectItem:
 @dataclass
 class ProfileConfig:
     name: str = "Nguyen Thi Hong Anh"
-    username: str = "sweeti3-pie"
+    username: str = "anhnth1305"
     headline: str = "Backend Software Engineer | Distributed Systems"
     location: str = "Ho Chi Minh City, Vietnam"
     university: str = "FPT University Ho Chi Minh City (FPTU HCM)"
@@ -50,9 +50,9 @@ class ProfileConfig:
     banner_motto: str = "Architect. Optimize. Scale."
     banner_sub: str = "ASP.NET Core | Clean Architecture | Fullstack Growth"
     
-    # Modern Slate palette (minimalist, metallic, matching GitHub dark surfaces)
-    # Deep midnight slate to clean metallic slate: '0:0f172a,100:334155'
-    banner_color: str = "0:0f172a,100:334155"
+    # Lighter Slate/Grey gradient (clearly visible against GitHub dark mode)
+    # Starts at mid-slate (475569) to light silver-grey (94a3b8)
+    banner_color: str = "0:475569,100:94a3b8"
 
     # Animated typewriter headline relevant to Fullstack Developer path
     typing_lines: List[str] = field(default_factory=lambda: [
@@ -85,7 +85,7 @@ class ProfileConfig:
         ),
         SocialLink(
             name="GitHub",
-            url="https://github.com/sweeti3-pie",
+            url="https://github.com/anhnth1305",
             badge_label="GitHub",
             color="181717",
             logo="github",
