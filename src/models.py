@@ -126,7 +126,8 @@ class ProfileConfig:
         ),
     ])
 
-    # Stats & Visual theme (tokyonight: deep indigo/slate with cyan accents, matching GitHub dark aesthetic)
+    # Toggle optional visual widgets (set to False for a clean, distraction-free portfolio)
+    show_github_stats: bool = False
     stats_theme: str = "tokyonight"
 
     quote: str = "Clean code always looks like it was written by someone who cares. — Robert C. Martin"

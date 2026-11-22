@@ -36,6 +36,26 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
     # Honors & awards (clean bullets, no emoji)
     honors_rendered = "\n".join(f"- **{h}**" for h in cfg.honors)
 
+    # Optional stats section
+    stats_block = ""
+    if cfg.show_github_stats:
+        stats_block = f"""---
+
+### GitHub Activity & Insights
+
+<div align="center">
+  <a href="https://github.com/{cfg.username}">
+    <img src="https://github-readme-stats.vercel.app/api?username={cfg.username}&show_icons=true&theme={cfg.stats_theme}&hide_border=true&count_private=true" alt="GitHub Stats" />
+  </a>
+</div>
+
+<p align="center">
+  <a href="https://github.com/{cfg.username}">
+    <img src="https://streak-stats.demolab.com?user={cfg.username}&theme={cfg.stats_theme}&hide_border=true" alt="Streak Stats" />
+  </a>
+</p>
+"""
+
     markdown = f"""<!--
   Automated profile README generated via Python.
 -->
@@ -79,23 +99,7 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 
 {projects_block}
 
----
-
-### GitHub Activity & Insights
-
-<div align="center">
-  <a href="https://github.com/{cfg.username}">
-    <img src="https://github-readme-stats.vercel.app/api?username={cfg.username}&show_icons=true&theme={cfg.stats_theme}&hide_border=true&count_private=true" alt="GitHub Stats" />
-  </a>
-</div>
-
-<p align="center">
-  <a href="https://github.com/{cfg.username}">
-    <img src="https://streak-stats.demolab.com?user={cfg.username}&theme={cfg.stats_theme}&hide_border=true" alt="Streak Stats" />
-  </a>
-</p>
-
----
+{stats_block}---
 
 ### Get In Touch
 

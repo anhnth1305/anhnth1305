@@ -86,22 +86,6 @@ The tools I use most while building toward stronger backend depth, resilient arc
 
 ---
 
-### GitHub Activity & Insights
-
-<div align="center">
-  <a href="https://github.com/sweeti3-pie">
-    <img src="https://github-readme-stats.vercel.app/api?username=sweeti3-pie&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  </a>
-</div>
-
-<p align="center">
-  <a href="https://github.com/sweeti3-pie">
-    <img src="https://streak-stats.demolab.com?user=sweeti3-pie&theme=tokyonight&hide_border=true" alt="Streak Stats" />
-  </a>
-</p>
-
----
-
 ### Get In Touch
 
 <p align="left">

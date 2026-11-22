@@ -39,11 +39,11 @@ class TestProfileGenerator(unittest.TestCase):
         self.assertIn("skillicons.dev/icons?i=cs,dotnet,java,c,js,html,css", md)
         self.assertIn("figma", md)
         self.assertIn("### Featured Engineering Project", md)
-        self.assertIn("### GitHub Activity & Insights", md)
         self.assertIn("### Get In Touch", md)
         self.assertIn("section=footer", md)
         self.assertIn("VeggieLife", md)
         self.assertNotIn("Async Distributed Task Engine", md)
+        self.assertNotIn("GitHub Activity & Insights", md)
 
     def test_file_output(self):
         with tempfile.TemporaryDirectory() as tmpdir:
