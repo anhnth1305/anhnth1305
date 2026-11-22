@@ -3,7 +3,7 @@
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:475569,100:94a3b8&height=220&section=header&text=Architect.%20Optimize.%20Scale.&fontSize=44&fontAlignY=38&desc=ASP.NET%20Core%20%7C%20Clean%20Architecture%20%7C%20Fullstack%20Growth&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:64748b,100:94a3b8&height=220&section=header&text=Architect.%20Optimize.%20Scale.&fontSize=44&fontAlignY=38&desc=ASP.NET%20Core%20%7C%20Clean%20Architecture%20%7C%20Fullstack%20Growth&descFontSize=20&descAlignY=62&fontColor=ffffff" width="100%" alt="Header Banner" />
 
   <center>
     <h1 align="center" style="text-align: center; border-bottom: none;">Nguyen Thi Hong Anh</h1>
@@ -46,7 +46,7 @@ The tools I use most while building toward stronger backend depth, resilient arc
 #### Languages
 
 <p align="center">
-  <a href="https://skillicons.dev">
+  <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
     <img src="https://skillicons.dev/icons?i=cs,dotnet,java,c,js,html,css" alt="Languages" />
   </a>
 </p>
@@ -54,7 +54,7 @@ The tools I use most while building toward stronger backend depth, resilient arc
 #### Backend & Frameworks
 
 <p align="center">
-  <a href="https://skillicons.dev">
+  <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
     <img src="https://skillicons.dev/icons?i=dotnet" alt="Backend & Frameworks" />
   </a>
 </p>
@@ -62,7 +62,7 @@ The tools I use most while building toward stronger backend depth, resilient arc
 #### Databases & Caching
 
 <p align="center">
-  <a href="https://skillicons.dev">
+  <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
     <img src="https://skillicons.dev/icons?i=redis,postgres,mysql" alt="Databases & Caching" />
   </a>
 </p>
@@ -70,7 +70,7 @@ The tools I use most while building toward stronger backend depth, resilient arc
 #### DevOps & Tools
 
 <p align="center">
-  <a href="https://skillicons.dev">
+  <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
     <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,vscode,figma" alt="DevOps & Tools" />
   </a>
 </p>
@@ -97,10 +97,10 @@ The tools I use most while building toward stronger backend depth, resilient arc
   <a href="mailto:anh.nth1305@gmail.com">
     <img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/hong-anh-23a103448">
+  <a href="https://linkedin.com/in/hong-anh-23a103448" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/anhnth1305">
+  <a href="https://github.com/anhnth1305" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-@anhnth1305-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
@@ -112,5 +112,5 @@ The tools I use most while building toward stronger backend depth, resilient arc
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:475569,100:94a3b8&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:64748b,100:94a3b8&height=120&section=footer" width="100%" alt="Footer Banner" />
 </div>

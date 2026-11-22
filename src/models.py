@@ -51,8 +51,8 @@ class ProfileConfig:
     banner_sub: str = "ASP.NET Core | Clean Architecture | Fullstack Growth"
     
     # Lighter Slate/Grey gradient (clearly visible against GitHub dark mode)
-    # Starts at mid-slate (475569) to light silver-grey (94a3b8)
-    banner_color: str = "0:475569,100:94a3b8"
+    # Starts at mid-slate (64748b) to light silver-grey (94a3b8)
+    banner_color: str = "0:64748b,100:94a3b8"
 
     # Animated typewriter headline relevant to Fullstack Developer path
     typing_lines: List[str] = field(default_factory=lambda: [

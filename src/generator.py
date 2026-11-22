@@ -14,7 +14,7 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
         tech_stack_sections.append(
             f"#### {cat.title}\n\n"
             f'<p align="center">\n'
-            f'  <a href="https://skillicons.dev">\n'
+            f'  <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">\n'
             f'    <img src="https://skillicons.dev/icons?i={icons_str}" alt="{cat.title}" />\n'
             f'  </a>\n'
             f"</p>"
@@ -63,7 +63,7 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color={cfg.banner_color}&height=220&section=header&text={banner_text_enc}&fontSize=44&fontAlignY=38&desc={banner_desc_enc}&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color={cfg.banner_color}&height=220&section=header&text={banner_text_enc}&fontSize=44&fontAlignY=38&desc={banner_desc_enc}&descFontSize=20&descAlignY=62&fontColor=ffffff" width="100%" alt="Header Banner" />
 
   <center>
     <h1 align="center" style="text-align: center; border-bottom: none;">{cfg.name}</h1>
@@ -116,10 +116,10 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
   <a href="mailto:anh.nth1305@gmail.com">
     <img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/hong-anh-23a103448">
+  <a href="https://linkedin.com/in/hong-anh-23a103448" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/{cfg.username}">
+  <a href="https://github.com/{cfg.username}" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-@{cfg.username}-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
@@ -131,7 +131,7 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color={cfg.banner_color}&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color={cfg.banner_color}&height=120&section=footer" width="100%" alt="Footer Banner" />
 </div>
 """
     return markdown
