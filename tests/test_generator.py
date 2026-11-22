@@ -35,7 +35,7 @@ class TestProfileGenerator(unittest.TestCase):
         self.assertIn("Backend & Frameworks", md)
         self.assertIn("Databases & Caching", md)
         self.assertIn("DevOps & Tools", md)
-        self.assertIn("skillicons.dev/icons?i=cs,dotnet,java,c,js,html,css", md)
+        self.assertIn("skillicons.dev/icons?i=cs,java", md)
         self.assertIn("VeggieLife", md)
         self.assertNotIn("Async Distributed Task Engine", md)
 

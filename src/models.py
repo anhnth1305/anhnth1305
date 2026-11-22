@@ -85,12 +85,12 @@ class ProfileConfig:
         ),
     ])
 
-    # Tech Stack matching verified actual skills
-    tech_intro: str = "The tools I use most while building toward stronger backend depth, resilient architectures, and safer delivery."
+    # Tech Stack: Focused, curated essentials (no clutter or redundant icons)
+    tech_intro: str = "The core tools I use to architect resilient, high-concurrency backends."
     tech_categories: List[TechCategory] = field(default_factory=lambda: [
         TechCategory(
             title="Languages",
-            icons=["cs", "dotnet", "java", "c", "js", "html", "css"],
+            icons=["cs", "java"],
         ),
         TechCategory(
             title="Backend & Frameworks",
@@ -98,11 +98,11 @@ class ProfileConfig:
         ),
         TechCategory(
             title="Databases & Caching",
-            icons=["redis", "postgres", "mysql"],
+            icons=["redis", "postgres"],
         ),
         TechCategory(
             title="DevOps & Tools",
-            icons=["docker", "git", "github", "githubactions", "postman", "vscode", "figma"],
+            icons=["docker", "git", "postman", "figma"],
         ),
     ])
 

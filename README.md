@@ -44,12 +44,12 @@
 
 ### 📚 Tech Stack
 
-The tools I use most while building toward stronger backend depth, resilient architectures, and safer delivery.
+The core tools I use to architect resilient, high-concurrency backends.
 
 #### Languages
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,c,js,html,css" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=cs,java" alt="Languages" />
 </p>
 
 #### Backend & Frameworks
@@ -61,13 +61,13 @@ The tools I use most while building toward stronger backend depth, resilient arc
 #### Databases & Caching
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=redis,postgres,mysql" alt="Databases & Caching" />
+  <img src="https://skillicons.dev/icons?i=redis,postgres" alt="Databases & Caching" />
 </p>
 
 #### DevOps & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,vscode,figma" alt="DevOps & Tools" />
+  <img src="https://skillicons.dev/icons?i=docker,git,postman,figma" alt="DevOps & Tools" />
 </p>
 
 ---
@@ -90,32 +90,20 @@ The tools I use most while building toward stronger backend depth, resilient arc
 
 <div align="center">
   <a href="https://github.com/sweeti3-pie">
-    <img src="https://github-readme-stats.vercel.app/api?username=sweeti3-pie&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api?username=sweeti3-pie&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="160" />
   </a>
   <a href="https://github.com/sweeti3-pie">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sweeti3-pie&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sweeti3-pie&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="160" />
   </a>
 </div>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sweeti3-pie&theme=radical&hide_border=true" alt="Streak Stats" />
-</p>
-
 ---
 
-### 📬 Get In Touch
+### 📬 Connect With Me
 
-<p align="left">
-  <a href="mailto:anh.nth1305@gmail.com">
-    <img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/hong-anh-23a103448">
-    <img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/sweeti3-pie">
-    <img src="https://img.shields.io/badge/GitHub-@sweeti3--pie-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+- 📧 **Email:** [anh.nth1305@gmail.com](mailto:anh.nth1305@gmail.com)
+- 💼 **LinkedIn:** [Nguyen Thi Hong Anh](https://linkedin.com/in/hong-anh-23a103448)
+- 🐙 **GitHub:** [@sweeti3-pie](https://github.com/sweeti3-pie)
 
 ---
 
