@@ -33,9 +33,6 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
         )
     projects_block = "\n\n".join(projects_rendered)
 
-    # Honors & awards (clean bullets, no emoji)
-    honors_rendered = "\n".join(f"- **{h}**" for h in cfg.honors)
-
     # Optional stats section
     stats_block = ""
     if cfg.show_github_stats:
@@ -77,13 +74,6 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 
 {chr(10).join(f"- {b}" for b in cfg.bio_bullets)}
 - **Location:** {cfg.location}
-
-<details>
-<summary><b>Honors & Professional Certifications</b></summary>
-
-{honors_rendered}
-
-</details>
 
 ---
 

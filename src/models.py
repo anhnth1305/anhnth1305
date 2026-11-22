@@ -47,18 +47,10 @@ class ProfileConfig:
     degree: str = "Third-year Software Engineering Student (GPA: 3.18/4.0)"
     
     bio_bullets: List[str] = field(default_factory=lambda: [
-        "**Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.",
+        "**Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0 • Two-time Honorable Student Award recipient)*.",
         "**Focus:** Backend Engineering, Clean Architecture, distributed caching, and resilient API design.",
         "**Core Expertise:** Sub-50ms instant security revocation (Redis Blacklist), atomic Redis Lua scripting, and background workers.",
         "**Languages:** Vietnamese (Native) • English (Professional Working Proficiency) • Japanese (Elementary) • French (Basic).",
-    ])
-
-    honors: List[str] = field(default_factory=lambda: [
-        "Honorable Student Award (Semester 3, Semester 4) – FPT University",
-        "Coursera: Data Structures & Algorithms Specialization (UC San Diego)",
-        "Coursera: Software Engineering Specialization (HKUST)",
-        "Coursera: Object-Oriented Programming in Java (Duke University)",
-        "IBM & Anthropic: Generative AI Fundamentals & Claude 101",
     ])
 
     socials: List[SocialLink] = field(default_factory=lambda: [

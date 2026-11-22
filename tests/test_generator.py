@@ -44,6 +44,8 @@ class TestProfileGenerator(unittest.TestCase):
         self.assertIn("VeggieLife", md)
         self.assertNotIn("Async Distributed Task Engine", md)
         self.assertNotIn("GitHub Activity & Insights", md)
+        self.assertNotIn("<details>", md)
+        self.assertIn("Two-time Honorable Student Award", md)
 
     def test_file_output(self):
         with tempfile.TemporaryDirectory() as tmpdir:
