@@ -29,7 +29,7 @@ class TestProfileGenerator(unittest.TestCase):
         md = generate_profile_markdown(self.config)
         self.assertIn("Nguyen Thi Hong Anh", md)
         self.assertIn("FPT University Ho Chi Minh City (FPTU HCM)", md)
-        self.assertIn("Third-Year", md)
+        self.assertIn("Third-year", md)
         self.assertIn("### About Me", md)
         self.assertIn("### Tech Stack", md)
         self.assertIn("Languages", md)
