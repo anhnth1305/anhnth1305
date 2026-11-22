@@ -1,4 +1,4 @@
-"""Data models and profile configuration based strictly on actual achievements."""
+"""Data models and profile configuration matching the user's exact visual style."""
 
 from dataclasses import dataclass, field
 from typing import List, Dict
@@ -22,6 +22,12 @@ class TechItem:
 
 
 @dataclass
+class TechCategory:
+    title: str
+    icons: List[str]  # skillicons IDs, e.g. ["js", "ts", "java", "py", "cs", "c"]
+
+
+@dataclass
 class ProjectItem:
     title: str
     subtitle: str
@@ -39,19 +45,20 @@ class ProfileConfig:
     location: str = "Ho Chi Minh City, Vietnam"
     university: str = "FPT University Ho Chi Minh City (FPTU HCM)"
     degree: str = "Third-year Software Engineering Student (GPA: 3.18/4.0)"
-    honors: List[str] = field(default_factory=lambda: [
-        "Honorable Student Award (Semester 3, Semester 4) – FPT University",
-        "Coursera Specialization: Data Structures & Algorithms (UC San Diego)",
-        "Coursera Specialization: Software Engineering (HKUST)",
-        "Coursera Specialization: Object-Oriented Programming in Java (Duke University)",
-        "IBM & Anthropic: Generative AI Fundamentals & Claude 101",
+    
+    bio_bullets: List[str] = field(default_factory=lambda: [
+        "🎓 **Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.",
+        "🔭 **Focus:** Backend Engineering, Clean Architecture, distributed caching, and resilient API design.",
+        "⚡ **Core Expertise:** Sub-50ms instant security revocation (Redis Blacklist), atomic Redis Lua scripting, and background workers.",
+        "🌐 **Languages:** Vietnamese (Native) • English (Professional Working Proficiency) • Japanese (Elementary) • French (Basic).",
     ])
 
-    bio_bullets: List[str] = field(default_factory=lambda: [
-        "🎓 **Status:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.",
-        "🔭 **Core Focus:** Backend Engineering, Clean Architecture, high-concurrency systems, and resilient API design.",
-        "⚡ **Key Strengths:** Sub-50ms security pipelines, atomic Redis caching (Lua scripts), and background worker orchestration.",
-        "🌐 **Languages:** Vietnamese (Native) • English (Professional Working Proficiency) • Japanese (Elementary) • French (Basic).",
+    honors: List[str] = field(default_factory=lambda: [
+        "Honorable Student Award (Semester 3, Semester 4) – FPT University",
+        "Coursera: Data Structures & Algorithms Specialization (UC San Diego)",
+        "Coursera: Software Engineering Specialization (HKUST)",
+        "Coursera: Object-Oriented Programming in Java (Duke University)",
+        "IBM & Anthropic: Generative AI Fundamentals & Claude 101",
     ])
 
     socials: List[SocialLink] = field(default_factory=lambda: [
@@ -78,44 +85,29 @@ class ProfileConfig:
         ),
     ])
 
-    # No duplicated mega-banner; icons are placed directly per title
-    tech_categories: Dict[str, List[TechItem]] = field(default_factory=lambda: {
-        "💻 Languages": [
-            TechItem("C#", "239120", "c-sharp"),
-            TechItem(".NET 8", "512BD4", "dotnet"),
-            TechItem("Python", "3776AB", "python"),
-            TechItem("SQL (T-SQL)", "CC292B", "microsoft-sql-server"),
-        ],
-        "⚙️ Frameworks & Libraries": [
-            TechItem("ASP.NET Core Web API", "512BD4", "dotnet"),
-            TechItem("Entity Framework Core 8", "512BD4", "dotnet"),
-            TechItem("SignalR", "512BD4", "dotnet"),
-            TechItem("Polly", "512BD4", "dotnet"),
-            TechItem("Serilog", "007ACC", "windows-terminal"),
-            TechItem("FluentValidation", "512BD4", "dotnet"),
-        ],
-        "🗄️ Databases & Caching": [
-            TechItem("SQL Server 2022", "CC292B", "microsoft-sql-server"),
-            TechItem("Redis 7 (Lua)", "DC382D", "redis"),
-        ],
-        "🚀 DevOps, Testing & Tooling": [
-            TechItem("Docker", "2496ED", "docker"),
-            TechItem("Git", "F05032", "git"),
-            TechItem("GitHub Actions", "2088FF", "github-actions"),
-            TechItem("Postman", "FF6C37", "postman"),
-            TechItem("Swagger / OpenAPI", "85EA2D", "swagger", logo_color="black"),
-            TechItem("xUnit", "512BD4", "dotnet"),
-        ],
-    })
-
-    architecture_skills: List[str] = field(default_factory=lambda: [
-        "Clean Architecture (3-Layer / N-Tier)",
-        "RESTful API Design & Error Handling Envelopes",
-        "Sub-50ms Instant Token Revocation (Redis Blacklist)",
-        "JWT & Refresh Token Rotation",
-        "Atomic Quotas with Redis Lua Scripting",
-        "HMAC SHA-256 Webhook Verification & PayOS Integration",
-        "IDOR Prevention & RBAC",
+    # Tech Stack matching the user's exact visual reference
+    tech_intro: str = "The tools I use most while building toward stronger backend depth, cleaner frontend work, and safer delivery."
+    tech_categories: List[TechCategory] = field(default_factory=lambda: [
+        TechCategory(
+            title="Languages",
+            icons=["js", "ts", "java", "py", "cs", "c"],
+        ),
+        TechCategory(
+            title="Frontend",
+            icons=["react", "html", "css", "bootstrap", "tailwind", "vite"],
+        ),
+        TechCategory(
+            title="Backend & Frameworks",
+            icons=["spring", "dotnet"],
+        ),
+        TechCategory(
+            title="Database - Vector Database",
+            icons=["mysql", "postgres", "mongodb", "redis"],
+        ),
+        TechCategory(
+            title="DevOps & Tools",
+            icons=["docker", "git", "github", "githubactions", "vscode", "figma"],
+        ),
     ])
 
     featured_projects: List[ProjectItem] = field(default_factory=lambda: [
@@ -133,7 +125,7 @@ class ProfileConfig:
                 "**Real-Time Security & Instant Revocation:** Built JWT/Refresh token rotation with sub-50ms revocation via Redis Blacklist and SignalR real-time logout.",
                 "**Zero-DB Guest Pipeline:** Formulated atomic quota tracking using Redis Lua scripts, eliminating cold database write load for AI trial queries.",
                 "**Fintech Payment Gateway:** Integrated PayOS (VietQR) with HMAC SHA-256 webhook reconciliation, dynamic client-origin routing, and IDOR protection.",
-                "**Resilient Background Workers & Testing:** Authored async worker jobs with exponential backoff retries and maintained a repository suite of **1,200+ automated tests**.",
+                "**Resilient Background Workers & Testing:** Authored async worker jobs with exponential backoff retries and maintained an enterprise suite of **1,200+ automated tests**.",
             ],
         ),
     ])

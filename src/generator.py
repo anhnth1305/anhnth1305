@@ -1,27 +1,24 @@
-"""Markdown profile generator combining structured models and clean badge placement."""
+"""Markdown profile generator combining structured models and the exact Skillicons visual style."""
 
 from src.models import ProfileConfig
-from src.badges import shield_badge, social_badge
+from src.badges import social_badge
 
 
 def generate_profile_markdown(cfg: ProfileConfig) -> str:
-    """Compile ProfileConfig into a concise, accurate, icon-rich GitHub profile README."""
+    """Compile ProfileConfig into a clean, concise, visually appealing GitHub profile README."""
     social_badges_html = " ".join(social_badge(s) for s in cfg.socials)
 
-    # Tech Stack: Icons placed directly under each category title
+    # Tech Stack matching user's exact screenshot style:
+    # Left-aligned category title with centered Skillicons row below it
     tech_stack_sections = []
-    for cat_name, items in cfg.tech_categories.items():
-        badges_str = "\n  ".join(shield_badge(item) for item in items)
+    for cat in cfg.tech_categories:
+        icons_str = ",".join(cat.icons)
         tech_stack_sections.append(
-            f"#### {cat_name}\n<p align=\"left\">\n  {badges_str}\n</p>"
+            f"#### {cat.title}\n\n"
+            f'<p align="center">\n'
+            f'  <img src="https://skillicons.dev/icons?i={icons_str}" alt="{cat.title}" />\n'
+            f"</p>"
         )
-    
-    # Architecture highlights
-    arch_bullets = " • ".join(f"`{a}`" for a in cfg.architecture_skills)
-    tech_stack_sections.append(
-        f"#### 📐 Architecture & Security Patterns\n{arch_bullets}"
-    )
-
     tech_stack_rendered = "\n\n".join(tech_stack_sections)
 
     # Featured project (real work: VeggieLife)
@@ -71,7 +68,9 @@ def generate_profile_markdown(cfg: ProfileConfig) -> str:
 
 ---
 
-### 🛠️ Technical Stack
+### 📚 Tech Stack
+
+{cfg.tech_intro}
 
 {tech_stack_rendered}
 

@@ -23,9 +23,9 @@
 
 ### 📌 About Me
 
-- 🎓 **Status:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.
-- 🔭 **Core Focus:** Backend Engineering, Clean Architecture, high-concurrency systems, and resilient API design.
-- ⚡ **Key Strengths:** Sub-50ms security pipelines, atomic Redis caching (Lua scripts), and background worker orchestration.
+- 🎓 **Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0)*.
+- 🔭 **Focus:** Backend Engineering, Clean Architecture, distributed caching, and resilient API design.
+- ⚡ **Core Expertise:** Sub-50ms instant security revocation (Redis Blacklist), atomic Redis Lua scripting, and background workers.
 - 🌐 **Languages:** Vietnamese (Native) • English (Professional Working Proficiency) • Japanese (Elementary) • French (Basic).
 - 📍 **Location:** Ho Chi Minh City, Vietnam
 
@@ -33,53 +33,48 @@
 <summary><b>🎖️ Honors & Professional Certifications</b></summary>
 
 - 🏆 **Honorable Student Award (Semester 3, Semester 4) – FPT University**
-- 🏆 **Coursera Specialization: Data Structures & Algorithms (UC San Diego)**
-- 🏆 **Coursera Specialization: Software Engineering (HKUST)**
-- 🏆 **Coursera Specialization: Object-Oriented Programming in Java (Duke University)**
+- 🏆 **Coursera: Data Structures & Algorithms Specialization (UC San Diego)**
+- 🏆 **Coursera: Software Engineering Specialization (HKUST)**
+- 🏆 **Coursera: Object-Oriented Programming in Java (Duke University)**
 - 🏆 **IBM & Anthropic: Generative AI Fundamentals & Claude 101**
 
 </details>
 
 ---
 
-### 🛠️ Technical Stack
+### 📚 Tech Stack
 
-#### 💻 Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 8" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL%20%28T--SQL%29-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL (T-SQL)" />
+The tools I use most while building toward stronger backend depth, cleaner frontend work, and safer delivery.
+
+#### Languages
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,java,py,cs,c" alt="Languages" />
 </p>
 
-#### ⚙️ Frameworks & Libraries
-<p align="left">
-  <img src="https://img.shields.io/badge/ASP.NET%20Core%20Web%20API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core Web API" />
-  <img src="https://img.shields.io/badge/Entity%20Framework%20Core%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Entity Framework Core 8" />
-  <img src="https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="SignalR" />
-  <img src="https://img.shields.io/badge/Polly-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Polly" />
-  <img src="https://img.shields.io/badge/Serilog-007ACC?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Serilog" />
-  <img src="https://img.shields.io/badge/FluentValidation-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="FluentValidation" />
+#### Frontend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,html,css,bootstrap,tailwind,vite" alt="Frontend" />
 </p>
 
-#### 🗄️ Databases & Caching
-<p align="left">
-  <img src="https://img.shields.io/badge/SQL%20Server%202022-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server 2022" />
-  <img src="https://img.shields.io/badge/Redis%207%20%28Lua%29-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis 7 (Lua)" />
+#### Backend & Frameworks
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=spring,dotnet" alt="Backend & Frameworks" />
 </p>
 
-#### 🚀 DevOps, Testing & Tooling
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Swagger%20/%20OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger / OpenAPI" />
-  <img src="https://img.shields.io/badge/xUnit-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="xUnit" />
+#### Database - Vector Database
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis" alt="Database - Vector Database" />
 </p>
 
-#### 📐 Architecture & Security Patterns
-`Clean Architecture (3-Layer / N-Tier)` • `RESTful API Design & Error Handling Envelopes` • `Sub-50ms Instant Token Revocation (Redis Blacklist)` • `JWT & Refresh Token Rotation` • `Atomic Quotas with Redis Lua Scripting` • `HMAC SHA-256 Webhook Verification & PayOS Integration` • `IDOR Prevention & RBAC`
+#### DevOps & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vscode,figma" alt="DevOps & Tools" />
+</p>
 
 ---
 
@@ -93,7 +88,7 @@
 - **Real-Time Security & Instant Revocation:** Built JWT/Refresh token rotation with sub-50ms revocation via Redis Blacklist and SignalR real-time logout.
 - **Zero-DB Guest Pipeline:** Formulated atomic quota tracking using Redis Lua scripts, eliminating cold database write load for AI trial queries.
 - **Fintech Payment Gateway:** Integrated PayOS (VietQR) with HMAC SHA-256 webhook reconciliation, dynamic client-origin routing, and IDOR protection.
-- **Resilient Background Workers & Testing:** Authored async worker jobs with exponential backoff retries and maintained a repository suite of **1,200+ automated tests**.
+- **Resilient Background Workers & Testing:** Authored async worker jobs with exponential backoff retries and maintained an enterprise suite of **1,200+ automated tests**.
 
 ---
 

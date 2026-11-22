@@ -4,21 +4,14 @@ import unittest
 from pathlib import Path
 import tempfile
 
-from src.models import ProfileConfig, TechItem, SocialLink
-from src.badges import shield_badge, social_badge
+from src.models import ProfileConfig, SocialLink, TechCategory
+from src.badges import social_badge
 from src.generator import generate_profile_markdown
 
 
 class TestProfileGenerator(unittest.TestCase):
     def setUp(self):
         self.config = ProfileConfig()
-
-    def test_shield_badge_format(self):
-        item = TechItem(name="Python", color="3776AB", logo="python")
-        badge = shield_badge(item)
-        self.assertIn("img.shields.io/badge/Python-3776AB", badge)
-        self.assertIn('logo=python', badge)
-        self.assertIn('alt="Python"', badge)
 
     def test_social_badge_format(self):
         link = SocialLink(
@@ -36,14 +29,16 @@ class TestProfileGenerator(unittest.TestCase):
         md = generate_profile_markdown(self.config)
         self.assertIn("Nguyen Thi Hong Anh", md)
         self.assertIn("FPT University Ho Chi Minh City (FPTU HCM)", md)
-        self.assertIn("Third-year", md)
-        self.assertIn("About Me", md)
-        self.assertIn("Technical Stack", md)
+        self.assertIn("Third-Year", md)
+        self.assertIn("Tech Stack", md)
+        self.assertIn("Languages", md)
+        self.assertIn("Frontend", md)
+        self.assertIn("Backend & Frameworks", md)
+        self.assertIn("Database - Vector Database", md)
+        self.assertIn("DevOps & Tools", md)
+        self.assertIn("skillicons.dev/icons?i=js,ts,java,py,cs,c", md)
         self.assertIn("VeggieLife", md)
         self.assertNotIn("Async Distributed Task Engine", md)
-        self.assertNotIn("GitHub Profile Dynamic Generator", md)
-        self.assertIn("GitHub Activity & Insights", md)
-        self.assertIn("Get In Touch", md)
 
     def test_file_output(self):
         with tempfile.TemporaryDirectory() as tmpdir:
