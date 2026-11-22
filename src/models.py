@@ -50,16 +50,16 @@ class ProfileConfig:
     banner_motto: str = "Architect. Optimize. Scale."
     banner_sub: str = "ASP.NET Core | Clean Architecture | Fullstack Growth"
     
-    # Modern Violet/Obsidian palette (alternative to harsh blue; matches .NET & C# branding)
-    # Deep midnight obsidian to royal violet: '0:0f0728,100:4c1d95'
-    banner_color: str = "0:0f0728,100:4c1d95"
+    # Modern Slate palette (minimalist, metallic, matching GitHub dark surfaces)
+    # Deep midnight slate to clean metallic slate: '0:0f172a,100:334155'
+    banner_color: str = "0:0f172a,100:334155"
 
     # Animated typewriter headline relevant to Fullstack Developer path
     typing_lines: List[str] = field(default_factory=lambda: [
         "Backend-focused developer with fullstack aspirations.",
         "Building robust .NET systems with modern web fundamentals.",
     ])
-    typing_color: str = "C084FC"  # Soft neon violet (Fira Code)
+    typing_color: str = "94A3B8"  # Clean metallic slate (Slate 400) in Fira Code
 
     bio_bullets: List[str] = field(default_factory=lambda: [
         "**Education:** Third-year Software Engineering student at **FPT University Ho Chi Minh City (FPTU HCM)** *(GPA: 3.18/4.0 • Two-time Honorable Student Award recipient)*.",

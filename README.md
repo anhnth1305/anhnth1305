@@ -3,24 +3,24 @@
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0728,100:4c1d95&height=220&section=header&text=Architect.%20Optimize.%20Scale.&fontSize=44&fontAlignY=38&desc=ASP.NET%20Core%20%7C%20Clean%20Architecture%20%7C%20Fullstack%20Growth&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:334155&height=220&section=header&text=Architect.%20Optimize.%20Scale.&fontSize=44&fontAlignY=38&desc=ASP.NET%20Core%20%7C%20Clean%20Architecture%20%7C%20Fullstack%20Growth&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
 
   <h1>Nguyen Thi Hong Anh</h1>
   <p><b>Backend Software Engineer | Distributed Systems</b></p>
   
   <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=1000&color=C084FC&center=true&vCenter=true&width=700&height=45&lines=Backend-focused%20developer%20with%20fullstack%20aspirations.;Building%20robust%20.NET%20systems%20with%20modern%20web%20fundamentals." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=1000&color=94A3B8&center=true&vCenter=true&width=700&height=45&lines=Backend-focused%20developer%20with%20fullstack%20aspirations.;Building%20robust%20.NET%20systems%20with%20modern%20web%20fundamentals." alt="Typing SVG" />
   </p>
 
   <p>
     <a href="mailto:anh.nth1305@gmail.com"><img src="https://img.shields.io/badge/Email-anh.nth1305@gmail.com-black?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-    <img src="https://img.shields.io/badge/Focus-ASP.NET_Core_Backend-7C3AED?style=flat-square" alt="Focus" />
-    <img src="https://img.shields.io/badge/Path-Fullstack_Developer-1E1B4B?style=flat-square" alt="Path" />
-    <img src="https://img.shields.io/badge/Open_To-Internship-7C3AED?style=flat-square" alt="Open To" />
+    <img src="https://img.shields.io/badge/Focus-ASP.NET_Core_Backend-475569?style=flat-square" alt="Focus" />
+    <img src="https://img.shields.io/badge/Path-Fullstack_Developer-1E293B?style=flat-square" alt="Path" />
+    <img src="https://img.shields.io/badge/Open_To-Internship-475569?style=flat-square" alt="Open To" />
   </p>
   <p>
-    <img src="https://img.shields.io/badge/Honors-Two--time_Honorable_Student-1E1B4B?style=flat-square" alt="Honors" />
-    <img src="https://img.shields.io/badge/Education-FPT_University_HCMC-7C3AED?style=flat-square" alt="Education" />
+    <img src="https://img.shields.io/badge/Honors-Two--time_Honorable_Student-1E293B?style=flat-square" alt="Honors" />
+    <img src="https://img.shields.io/badge/Education-FPT_University_HCMC-475569?style=flat-square" alt="Education" />
     <a href="https://linkedin.com/in/hong-anh-23a103448" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Nguyen_Thi_Hong_Anh-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   </p>
 </div>
@@ -102,5 +102,5 @@ The tools I use most while building toward stronger backend depth, resilient arc
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0728,100:4c1d95&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:334155&height=120&section=footer&theme=dark" width="100%" alt="Footer Banner" />
 </div>
