@@ -102,7 +102,7 @@ class ProfileConfig:
         ),
         TechCategory(
             title="DevOps & Tools",
-            icons=["docker", "git", "github", "githubactions", "postman", "vscode"],
+            icons=["docker", "git", "github", "githubactions", "postman", "vscode", "figma"],
         ),
     ])
 

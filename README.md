@@ -67,7 +67,7 @@ The tools I use most while building toward stronger backend depth, resilient arc
 #### DevOps & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,vscode" alt="DevOps & Tools" />
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,vscode,figma" alt="DevOps & Tools" />
 </p>
 
 ---
