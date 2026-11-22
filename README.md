@@ -5,8 +5,10 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:334155&height=220&section=header&text=Architect.%20Optimize.%20Scale.&fontSize=44&fontAlignY=38&desc=ASP.NET%20Core%20%7C%20Clean%20Architecture%20%7C%20Fullstack%20Growth&descFontSize=20&descAlignY=62&theme=dark" width="100%" alt="Header Banner" />
 
-  <h1 align="center">Nguyen Thi Hong Anh</h1>
-  <p align="center"><b>Backend Software Engineer | Distributed Systems</b></p>
+  <center>
+    <h1 align="center" style="text-align: center; border-bottom: none;">Nguyen Thi Hong Anh</h1>
+    <p align="center" style="text-align: center;"><b>Backend Software Engineer | Distributed Systems</b></p>
+  </center>
   
   <p align="center">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=1000&color=94A3B8&center=true&vCenter=true&width=700&height=45&lines=Backend-focused%20developer%20with%20fullstack%20aspirations.;Building%20robust%20.NET%20systems%20with%20modern%20web%20fundamentals." alt="Typing SVG" />
